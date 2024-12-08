@@ -1,0 +1,112 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-image: url(https://images.unsplash.com/photo-1494376877685-d3d2559d4f82?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  .page2 {
+    background-color: black;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-image: url(https://cdt11.media.tourinsoft.eu/upload/IMG-1102-4.jpg?width=1920&height=1080&crop=1);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+
+  .page3 {
+    background-color: black;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-image: url(https://st2.depositphotos.com/2981543/8029/i/450/depositphotos_80296182-stock-photo-gghost-woman-in-the-abandoned.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  .page4 {
+    background-color: black;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-image: url(https://static.nationalgeographic.fr/files/styles/image_3200/public/grand-ballroom.jpg?w=1900&h=1268);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  .page5 {
+    background-color: black;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-image: url(https://escapegame.imgix.net/62/62c6b9fe39164043082789.jpeg?auto=format,compress&ch=Width,DPR&fp-x=0.46&fp-y=0.46&crop=focalpoint&fit=crop);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  .page6 {
+    background-color: black;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-image: url(https://cdt11.media.tourinsoft.eu/upload/IMG-1102-4.jpg?width=1920&height=1080&crop=1);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  h1 {
+    color: #ffcc00;
+    text-shadow: 2px 2px 5px black;
+  }
+  
+  a {
+    color: lightblue;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  input {
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    background-color: #ffcc00;
+    border: none;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  table {
+    margin: 20px auto;
+    border-collapse: collapse;
+  }
+  
+  table td {
+    border: 1px solid white;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+  }
+  
