@@ -1,14 +1,13 @@
 body {
-    background-color: black;
-    color: white;
-    font-family: 'Arial', sans-serif;
-    text-align: center;
-    padding: 20px;
-    background-image: url(https://images.unsplash.com/photo-1494376877685-d3d2559d4f82?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-
+  background-color: black;
+  color: white;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  padding: 20px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  transition: background-image 1s ease-in-out; /* Pour une transition douce */
   }
   
   .page2 {
@@ -54,7 +53,7 @@ body {
     text-align: center;
     padding: 20px;
     background-image: url(https://escapegame.imgix.net/62/62c6b9fe39164043082789.jpeg?auto=format,compress&ch=Width,DPR&fp-x=0.46&fp-y=0.46&crop=focalpoint&fit=crop);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
@@ -110,3 +109,15 @@ body {
     text-align: center;
   }
   
+
+/* Indice caché dans une classe */
+.hidden-clue::before {
+  content: "Le mot de passe est:  6A 61 76 61 73 63 72 69 70 74 ";
+  display: none;
+}
+
+ 
+
+.hidden-indicator {
+  color: #1c1c1c; /* Texte caché sur fond noir */
+}
